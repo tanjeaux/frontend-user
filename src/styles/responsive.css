@@ -1,0 +1,356 @@
+/* Laptop (>=1024px) */
+@media (min-width: 1024px) {
+  .hero__title {
+    font-size: 50px;
+  }
+  .hero__tagline {
+    font-size: 20px;
+  }
+  .hero button {
+    font-size: 25px;
+  }
+
+  .foot {
+    margin-top: auto;
+  }
+}
+
+/* Tablet (>=768px and <1024px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero__title {
+    font-size: 30px;
+    margin-left: 30px;
+  }
+  .hero__tagline {
+    font-size: 10px;
+    margin-left: 30px;
+  }
+  .hero button {
+    font-size: 15px;
+    margin-left: 30px;
+  }
+  .hero-img-container {
+    width: 800px;
+    height: 500px;
+  }
+  .hero-img {
+    width: 800px;
+  }
+
+  .jelajahi-inner h2 {
+    font-size: 30px;
+  }
+
+  .jelajahi-inner p {
+    font-size: 15px;
+  }
+
+  .terpopuler-inner h2 {
+    font-size: 30px;
+  }
+
+  .about-inner h2 {
+    font-size: 30px;
+  }
+
+  .about-inner p {
+    font-size: 15px;
+  }
+
+  .menu-item-text {
+    max-width: 900px;
+  }
+
+  .menu-item-text h2 {
+    font-size: 17px;
+  }
+
+  .menu-item-text p {
+    font-size: 10px;
+  }
+  .foot {
+    margin-top: auto;
+  }
+
+  .foot p {
+    font-size: 14px;
+    font-weight: 400px;
+    margin: 0;
+  }
+}
+
+/* Mobile (>=480px and <768px) */
+@media (min-width: 480px) and (max-width: 767px) {
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: auto;
+  }
+
+  .hero__inner {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    max-width: 100%;
+    padding: 0 20px;
+    order: 2; /* Letakkan di bawah gambar */
+  }
+
+  .hero-img-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    order: 1; /* Letakkan di atas konten */
+    display: block;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: auto;
+    clip-path: none; /* Hapus clip-path agar gambar tampil penuh */
+  }
+  .hero__title {
+    font-size: 30px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .hero__tagline {
+    font-size: 14px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .hero button {
+    font-size: 18px;
+    padding: 8px 16px;
+    display: block;
+    margin: 20px auto 0;
+  }
+  .jelajahi-inner h2 {
+    font-size: 25px;
+  }
+
+  .jelajahi-inner p {
+    font-size: 13px;
+    margin: 0 10px 0 10px;
+  }
+
+  .about-inner h2 {
+    font-size: 25px;
+  }
+
+  .about-inner p {
+    font-size: 13px;
+    margin: 0 10px 0 10px;
+  }
+
+  .custom-card-about {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+  }
+
+  .terpopuler-grup-card .card {
+    flex-direction: column;
+    margin-right: 15px;
+    margin-left: 15px;
+    height: auto;
+  }
+
+  .terpopuler-grup-card .right-img {
+    flex-direction: column;
+  }
+
+  .terpopuler-grup-card .card-img-top,
+  .terpopuler-grup-card .card-body {
+    width: 100%;
+  }
+
+  .terpopuler-grup-card .card-img-top {
+    height: auto;
+  }
+
+  .terpopuler-grup-card .card-body {
+    padding: 15px;
+  }
+  .container {
+    height: 100%;
+  }
+
+  .menu-item {
+    flex-direction: column;
+    min-height: auto;
+    margin-bottom: 30px;
+  }
+
+  .menu-item-text {
+    margin: 20px;
+  }
+
+  .menu-item-text h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .foot {
+    margin-top: auto;
+  }
+
+  .foot p {
+    font-size: 12px;
+    margin: 0;
+  }
+}
+
+/* Small Mobile (<480px) */
+@media (max-width: 479px) {
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: auto;
+  }
+
+  .hero__inner {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    max-width: 100%;
+    padding: 0 20px;
+    order: 2; /* Letakkan di bawah gambar */
+  }
+
+  .hero-img-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    order: 1; /* Letakkan di atas konten */
+    display: block;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: auto;
+    clip-path: none; /* Hapus clip-path agar gambar tampil penuh */
+  }
+  .hero__title {
+    font-size: 25px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .hero__tagline {
+    font-size: 10px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .hero button {
+    font-size: 15px;
+    padding: 8px 16px;
+    display: block;
+    margin: 20px auto 0;
+  }
+  .jelajahi-inner h2 {
+    font-size: 20px;
+  }
+
+  .jelajahi-inner p {
+    font-size: 10px;
+    margin: 0 10px 0 10px;
+  }
+
+  .terpopuler-grup-card .card {
+    flex-direction: column;
+    margin: 10px auto;
+    height: auto;
+  }
+
+  .terpopuler-grup-card .right-img {
+    flex-direction: column;
+  }
+
+  .terpopuler-grup-card .card-img-top,
+  .terpopuler-grup-card .card-body {
+    width: 100%;
+  }
+
+  .terpopuler-grup-card .card-img-top {
+    height: auto;
+  }
+
+  .terpopuler-grup-card .card-body {
+    padding: 10px;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .icon-text i {
+    font-size: 1rem;
+    margin-right: 5px;
+  }
+
+  .icon-text {
+    margin-bottom: 8px;
+  }
+
+  .about-inner h2 {
+    font-size: 20px;
+  }
+
+  .about-inner p {
+    font-size: 10px;
+    margin: 0 10px 0 10px;
+  }
+
+  .custom-card-about {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+  }
+  .custom-card-about-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .custom-card-terpopuler {
+    width: 200px;
+    height: auto;
+  }
+
+  .custom-card-title {
+    font-size: 15px;
+  }
+
+  .card-body p {
+    font-size: 10px;
+  }
+
+  .container {
+    height: 100%;
+  }
+
+  .menu-item {
+    flex-direction: column;
+    min-height: auto;
+    margin-bottom: 30px;
+  }
+
+  .menu-item-text {
+    margin: 20px;
+  }
+
+  .menu-item-text h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .foot p {
+    font-size: 12px;
+    margin: 0;
+  }
+}
